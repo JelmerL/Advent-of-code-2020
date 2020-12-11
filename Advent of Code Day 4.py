@@ -10,6 +10,4 @@ with open("input4.txt", "r") as f:
             entry.append(single)
             single =[]
 
-for count, item in enumerate(entry):
-    print(type(entry))
 print(entry[2])
